@@ -39,6 +39,12 @@ function findReplace() {
 	document.getElementById("input").innerHTML = newText;
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+	let text = document.getElementById("rot1");
+	let rot1Text = "";
+	btn.addEventListener("click", rot1());
+});
+
 function rot1() {
 	//alphabet array
 	let alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O",
