@@ -23,19 +23,33 @@
 	</div>
 </a>
 
-
-	<h1>Test Text</h1>
 		<p id="input">I am Groot. We are Groot. We are Groot. We are Groot. We are Groot. We are Groot. We are Groot.
 		We are Groot. We are Groot. I am Groot. We are Groot. We are Groot. We are Groot. We are Groot.
 		I am Groot. I am Groot. We are Groot. I am Groot. We are Groot. We are Groot. We are Groot. I am Groot.
 		I am Groot. We are Groot. I am Groot.</p>
+
+
+<a>
+	<div>
+		<button id="highlight" onclick="highlight()">Highlight</button>
+	</div>
+
+</a>
 
 	<p id="p1">I am Groot. We are Groot. We are Groot. We are Groot. We are Groot. We are Groot. We are Groot.
 		We are Groot. We are Groot. I am Groot. We are Groot. We are Groot. We are Groot. We are Groot.
 		I am Groot. I am Groot. We are Groot. I am Groot. We are Groot. We are Groot. We are Groot. I am Groot.
 		I am Groot. We are Groot. I am Groot. </p>
 
-	<p>I am Groot. We are Groot. We are Groot. We are Groot. We are Groot. We are Groot. We are Groot.
+
+<a>
+	<div>
+		<button id="changeFontFamily"
+				  onclick="changeFontFamily()">changeFontFamily</button>
+	</div>
+</a>
+
+	<p id ="p2">I am Groot. We are Groot. We are Groot. We are Groot. We are Groot. We are Groot. We are Groot.
 		We are Groot. We are Groot. I am Groot. We are Groot. We are Groot. We are Groot. We are Groot.
 		I am Groot. I am Groot. We are Groot. I am Groot. We are Groot. We are Groot. We are Groot. I am Groot.
 		I am Groot. We are Groot. I am Groot. </p>

@@ -1,22 +1,20 @@
-
 //Press any key to highlight and change font
-(window.onkeydown = function ()
-{		highlight();
-changeFontFamily();
-})
+(window.onkeydown = function() {
+	highlight();
+	changeFontFamily();
+});
 
 document.addEventListener("DOMContentLoaded", function() {
 	let btn = getElementById("highlight");
 	btn.addEventListener("click", highlight());
 });
 
-function highlight () {
+function highlight() {
 	document.getElementById("p1").style.backgroundColor = "#fdff32";
 }
 
-function changeFontFamily () {
-	document.getElementById("p1").style.font
-	Family = 'Monospace';
+function changeFontFamily() {
+	document.getElementById("p2").style.fontFamily = 'Monospace';
 }
 
 
@@ -41,31 +39,30 @@ function findReplace() {
 	document.getElementById("input").innerHTML = newText;
 }
 
-$("p").mouseover(function(){
+$("p").mouseover(function() {
 	$("p").css("background-color", "yellow");
 });
 
 
-
 //document.addEventListener("DOMContentLoaded", function() {
-	//let btn = getElementById("highlight");
-	//btn.addEventListener("click", highlight());
+//let btn = getElementById("highlight");
+//btn.addEventListener("click", highlight());
 //});
 
 //.highlight {
-	//background-color: yellow;
+//background-color: yellow;
 //}
 
 //function highlight(text) {
-	//var inputText = document.getElementById("inputText");
-	//var innerHTML = inputText.innerHTML;
-	//var index = innerHTML.indexOf(text);
-	//if (index >= 0) {
-		//innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>"
-			//+ innerHTML.substring(index,index+text.length) + "</span>"
-			//+ innerHTML.substring(index + text.length);
-		//inputText.innerHTML = innerHTML;
-	//}
+//var inputText = document.getElementById("inputText");
+//var innerHTML = inputText.innerHTML;
+//var index = innerHTML.indexOf(text);
+//if (index >= 0) {
+//innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>"
+//+ innerHTML.substring(index,index+text.length) + "</span>"
+//+ innerHTML.substring(index + text.length);
+//inputText.innerHTML = innerHTML;
+//}
 //}
 
 
