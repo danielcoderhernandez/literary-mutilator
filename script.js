@@ -4,10 +4,10 @@
 	changeFontFamily();
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-	let btn = getElementById("highlight");
-	btn.addEventListener("click", highlight());
-});
+//document.addEventListener("DOMContentLoaded", function() {
+	//let btn = getElementById("highlight");
+	//btn.addEventListener("click", highlight());
+//});
 
 function highlight() {
 	document.getElementById("p1").style.backgroundColor = "#fdff32";
