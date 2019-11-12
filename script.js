@@ -46,10 +46,22 @@ function rot1() {
 		"h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w",
 		"x", "y", "z"];
 	//alphabet rot 1 array
-	let alphabet = ["B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O",
+	let alphabetRot1 = ["B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O",
 		"P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "A", "b", "c", "d", "e", "f", "g",
 		"h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w",
 		"x", "y", "z","a"];
+
+	let text = document.getElementById("rot1").textContent
+	let rot1Text = "";
+
+	for(let i = 0; i < text.length; i++) {
+		for(let j = 0; j < alphabet.length; j++) {
+			rot1Text = rot1Text + alphabetRot1[1];
+		}
+	}
+	if(text[i] === " ") {
+		rot1Text = rot1Text + " ";
+	}
 }
 
 
